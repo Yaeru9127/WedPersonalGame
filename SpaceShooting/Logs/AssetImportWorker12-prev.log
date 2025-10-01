@@ -1,0 +1,960 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.41f1 (46e447368a18) revision 4645959'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ja' Physical Memory: 32440 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/ktc/Desktop/WedPersonal/Monochrome
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+52671
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/ktc/Desktop/WedPersonal/Monochrome
+C:/Users/ktc/Desktop/WedPersonal/Monochrome
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28696]  Target information:
+
+Player connection [28696]  * "[IP] 172.22.90.104 [Port] 0 [Flags] 2 [Guid] 4162369067 [EditorId] 4162369067 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28696]  * "[IP] 172.19.176.1 [Port] 0 [Flags] 2 [Guid] 4162369067 [EditorId] 4162369067 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28696]  * "[IP] 192.168.217.1 [Port] 0 [Flags] 2 [Guid] 4162369067 [EditorId] 4162369067 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28696]  * "[IP] 192.168.172.1 [Port] 0 [Flags] 2 [Guid] 4162369067 [EditorId] 4162369067 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28696]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4162369067 [EditorId] 4162369067 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28696] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.41f1 (46e447368a18)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ktc/Desktop/WedPersonal/Monochrome/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6624
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006484 seconds.
+- Loaded All Assemblies, in  0.402 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 266 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (610ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (362ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.864 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1599ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (227ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (739ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6691 unused Assets / (7.2 MB). Loaded Objects now: 7339.
+Memory consumption went from 175.5 MB to 168.3 MB.
+Total: 10.308300 ms (FindLiveObjects: 0.698500 ms CreateObjectMapping: 0.741900 ms MarkObjects: 5.474800 ms  DeleteObjects: 3.391800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7704.620412 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Red.prefab
+  artifactKey: Guid(b90e0b5ced473594d8b3775f20a2aed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Red.prefab using Guid(b90e0b5ced473594d8b3775f20a2aed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '549683b2bf944ae2659c6f88a965eb87') in 1.1842313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 905
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example2_Grey.prefab
+  artifactKey: Guid(4ab2fc4928ff37746b26b549008cd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example2_Grey.prefab using Guid(4ab2fc4928ff37746b26b549008cd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ba7c89d5ce60f4b214faf6889601f9f') in 0.2277145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 923
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example3_Red.prefab
+  artifactKey: Guid(ded92bffdbffb794aa3304b5cf0497df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example3_Red.prefab using Guid(ded92bffdbffb794aa3304b5cf0497df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b24d0442b04fbddf501b09efe89ff4') in 0.2016001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 854
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.092765 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Red.prefab
+  artifactKey: Guid(8b9e8529f42020f4dacf64553cb2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Red.prefab using Guid(8b9e8529f42020f4dacf64553cb2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84f7950bdaaf78e0e0ef80d1bff775b7') in 0.1583599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 386
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example3NoInterior_Red.prefab
+  artifactKey: Guid(90d5c4eeecf7d3c41977a39408c2fe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example3NoInterior_Red.prefab using Guid(90d5c4eeecf7d3c41977a39408c2fe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584049f1557ec83637cade1293bbb1be') in 0.156505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 336
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.919573 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab
+  artifactKey: Guid(b6362f50ca5d7b145ba56bc6c23080ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab using Guid(b6362f50ca5d7b145ba56bc6c23080ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2af7fc76f0544e18b96a92a0a1614e4') in 0.0227011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab
+  artifactKey: Guid(ae8be24f5c456934ab1808e9cec2c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab using Guid(ae8be24f5c456934ab1808e9cec2c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3b48726c0b66ad4de959ee54a555cce') in 0.0230465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody2.prefab
+  artifactKey: Guid(1202b1e73ba4e0d468ce4000e6509541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody2.prefab using Guid(1202b1e73ba4e0d468ce4000e6509541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43304ea5a009e41249bb7543a6a10827') in 0.0176093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Engine1.prefab
+  artifactKey: Guid(46b44d60b1f0369449bf47d8ef9e2fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Engine1.prefab using Guid(46b44d60b1f0369449bf47d8ef9e2fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90fe315c64dc9f43554b822bc73a3daa') in 0.0335598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.009778 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_TargetScreens.mat
+  artifactKey: Guid(acc1e4addf40628439f6ad5785c2801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_TargetScreens.mat using Guid(acc1e4addf40628439f6ad5785c2801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '841c8d6575821ba33e899e954a442d84') in 0.0388962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.119619 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Boss_1_A_Large.png
+  artifactKey: Guid(584de057b67f9df4c83abfaa791f901e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Boss_1_A_Large.png using Guid(584de057b67f9df4c83abfaa791f901e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6525b564e529104dfe93dbd0a80ed4c') in 0.0433793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_1_D_Large.png
+  artifactKey: Guid(163e58aff96be6b4aa7c37128bc7a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_1_D_Large.png using Guid(163e58aff96be6b4aa7c37128bc7a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c80de6a76b9fa76623d41441e3401544') in 0.0171326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_3_A_Large.png
+  artifactKey: Guid(20e588a3e354f224b903c78aaa47296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_3_A_Large.png using Guid(20e588a3e354f224b903c78aaa47296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af31d32acba1d5378e9545be25827131') in 0.0141802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_2_A_Large.png
+  artifactKey: Guid(70934dd5e4b22074cbfbd39136f80035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_2_A_Large.png using Guid(70934dd5e4b22074cbfbd39136f80035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0305180a0b1e4a567cdf0a4d293cda32') in 0.0100754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_3_D_Large.png
+  artifactKey: Guid(7e43e887c177c3148aa5b2dc0e8c40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_3_D_Large.png using Guid(7e43e887c177c3148aa5b2dc0e8c40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8da9a7868972b1c044f79ca110df46f') in 0.0108892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_1_B_Large.png
+  artifactKey: Guid(e523a6da6e5ae224ba818a6c57853189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_1_B_Large.png using Guid(e523a6da6e5ae224ba818a6c57853189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab8dc8567a55b015e4da9c853b9e049') in 0.0116001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_2_C_Large.png
+  artifactKey: Guid(6b26b7121ebc4074caf08e62e129eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_2_C_Large.png using Guid(6b26b7121ebc4074caf08e62e129eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc03a158cad6625ff1e5bba1d958f5b7') in 0.016508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_1_D_Large.png
+  artifactKey: Guid(0b2eea960a3a6d74181dae066a704031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_1_D_Large.png using Guid(0b2eea960a3a6d74181dae066a704031) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da87cbd25e74a645a3104663b3e7fbc9') in 0.0156931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_1_B_Large.png
+  artifactKey: Guid(ae8d59edd749c5c46b6dd5503795e7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_1_B_Large.png using Guid(ae8d59edd749c5c46b6dd5503795e7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13b06ae63f4cdc5c6485d187cfd77b9') in 0.022066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_4_A_Large.png
+  artifactKey: Guid(36b8dcbe67653b844bdad785d43e1426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_4_A_Large.png using Guid(36b8dcbe67653b844bdad785d43e1426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b27ab71792e459c5f35f439d338be68') in 0.0102218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_1_A_Large.png
+  artifactKey: Guid(5f90cd983b6d70341910b7cdeeb8af91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_1_A_Large.png using Guid(5f90cd983b6d70341910b7cdeeb8af91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d60b368431803c9c7cc6d4ff01a1781') in 0.0088044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Missile_B_Large.png
+  artifactKey: Guid(b53ae569fbcbf74488e0753b9eb20324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Missile_B_Large.png using Guid(b53ae569fbcbf74488e0753b9eb20324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbec4e60551f2eefdc5772858457fe6e') in 0.0129025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Missile_C_Large.png
+  artifactKey: Guid(d26b0f548e9883d4eb87864d99c828c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Missile_C_Large.png using Guid(d26b0f548e9883d4eb87864d99c828c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86ff486704fd31448446ea8afea91f42') in 0.0107474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_3_B_Large.png
+  artifactKey: Guid(46dd7cff60a276b4182d0160d7c6e7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_3_B_Large.png using Guid(46dd7cff60a276b4182d0160d7c6e7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27ae14c6d8e75a3e88b02ce62ff956be') in 0.0136621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_1_D_Large.png
+  artifactKey: Guid(0f2d92a0bbc1d294f8f5c2253aa72316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_1_D_Large.png using Guid(0f2d92a0bbc1d294f8f5c2253aa72316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17179ccd4c14394479046832be28d1fa') in 0.0090899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_3_A_Large.png
+  artifactKey: Guid(a45d85ddcb096254c8e74695323c6a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Pickup_3_A_Large.png using Guid(a45d85ddcb096254c8e74695323c6a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c44c16cf45eb736c901b91f4a0859b7') in 0.0119176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_2_B_Large.png
+  artifactKey: Guid(3519fd60cfb78fc4aabc3486818618e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Enemy_2_B_Large.png using Guid(3519fd60cfb78fc4aabc3486818618e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa7d5bc565989afda1c65bf18ff7af92') in 0.0093852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_1_B_Large.png
+  artifactKey: Guid(24f34ebe479ade249bb78bc2c1d10d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_1_B_Large.png using Guid(24f34ebe479ade249bb78bc2c1d10d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0112700a1d1cf83ec535ee4aa0b47c') in 0.0091925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_1_C_Large.png
+  artifactKey: Guid(49f09a02956c4af4589f11c5bd78c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large/Ship_1_C_Large.png using Guid(49f09a02956c4af4589f11c5bd78c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d015ef15eea0c140b20692cb4bb337e') in 0.0108842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.658462 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Boss_1_A_Large_NoLight.png
+  artifactKey: Guid(1fbe50aa8ee7dcb4fa40fa76e674d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Boss_1_A_Large_NoLight.png using Guid(1fbe50aa8ee7dcb4fa40fa76e674d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628bb0fb5be3c12835591ed428c672b9') in 0.0160071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_1_C_Large_NoLight.png
+  artifactKey: Guid(83b1c47731e7e5a47b86eab552201a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_1_C_Large_NoLight.png using Guid(83b1c47731e7e5a47b86eab552201a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e8679ae6c76bcac7644f0f8959c6287') in 0.0101695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Missile_C_Large_NoLight.png
+  artifactKey: Guid(9398c778d7f33ef4595d5bd6d294e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Missile_C_Large_NoLight.png using Guid(9398c778d7f33ef4595d5bd6d294e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11b9d865d25a89230dc3ad92bb6256a') in 0.00989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_4_A_Large_NoLight.png
+  artifactKey: Guid(48e3efe9f7438a14f9eab4330bed0da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_4_A_Large_NoLight.png using Guid(48e3efe9f7438a14f9eab4330bed0da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0cf47bd57f727b07d1ea8836f0b5ecf') in 0.0108321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_3_B_Large_NoLight.png
+  artifactKey: Guid(371455fe0e1e2114e93d710f55e2d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_3_B_Large_NoLight.png using Guid(371455fe0e1e2114e93d710f55e2d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b0db7bccd5d0c4e9f2af893aee128e9') in 0.0104894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_3_D_Large_NoLight.png
+  artifactKey: Guid(5022aaeea7d90194599277f7d99e026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_3_D_Large_NoLight.png using Guid(5022aaeea7d90194599277f7d99e026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfb1d2bbc7c9bd0700f60e69bef0b8d') in 0.0090717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_2_C_Large_NoLight.png
+  artifactKey: Guid(29984027347c11a499ce3ebbda68ab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_2_C_Large_NoLight.png using Guid(29984027347c11a499ce3ebbda68ab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e5d4d017ff2493880ba0c6133b61fb5') in 0.01099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_2_B_Large_NoLight.png
+  artifactKey: Guid(f093542f8de6db54c8f7e1136ba01c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_2_B_Large_NoLight.png using Guid(f093542f8de6db54c8f7e1136ba01c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3806965015ed1ef412ac5004f46745d1') in 0.0109559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_E_Large_NoLight.png
+  artifactKey: Guid(7b92f246880a755409f36ce693614556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_E_Large_NoLight.png using Guid(7b92f246880a755409f36ce693614556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68e9fcf81e36f3408e61f976cb4faed5') in 0.0092816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_1_C_Large_NoLight.png
+  artifactKey: Guid(c5b7d2306ee5b1e4b87682cd2362b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_1_C_Large_NoLight.png using Guid(c5b7d2306ee5b1e4b87682cd2362b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7835f30a6355df2fbba6e9d5e6284868') in 0.0101681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Missile_A_Large_NoLight.png
+  artifactKey: Guid(3cb7d02cc2f8f8c46a9bbf5d3196bc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Missile_A_Large_NoLight.png using Guid(3cb7d02cc2f8f8c46a9bbf5d3196bc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab9d812229b02095afdc425d3ded1c1') in 0.0084186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_2_B_Large_NoLight.png
+  artifactKey: Guid(ee2167253aa60034daa0fefac4dfa4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_2_B_Large_NoLight.png using Guid(ee2167253aa60034daa0fefac4dfa4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3906573d290df7c33696595844607465') in 0.0089372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_1_B_Large_NoLight.png
+  artifactKey: Guid(cc2d00bb49c8ad847a42c32e6699e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_1_B_Large_NoLight.png using Guid(cc2d00bb49c8ad847a42c32e6699e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e4ed860beaea72e678bcc558b27be9a') in 0.0103308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_4_C_Large_NoLight.png
+  artifactKey: Guid(5492ce66262e9db4f854048b312097a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_4_C_Large_NoLight.png using Guid(5492ce66262e9db4f854048b312097a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da4d3666e1a3febbd6c13b5e39800759') in 0.0103502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001108 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_1_A_Large_NoLight.png
+  artifactKey: Guid(950e3f060e9f6244a9e3efef013c9434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_1_A_Large_NoLight.png using Guid(950e3f060e9f6244a9e3efef013c9434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31d267abf08b655ce2b27b37a0a80338') in 0.0102446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_C_Large_NoLight.png
+  artifactKey: Guid(ab7dc66c345657b47809156ec4f67f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_C_Large_NoLight.png using Guid(ab7dc66c345657b47809156ec4f67f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c7ce268480e325ae9837a7fd3092692') in 0.0106139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Missile_D_Large_NoLight.png
+  artifactKey: Guid(1f974d419cb71ba4d960b2e2815b7ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Missile_D_Large_NoLight.png using Guid(1f974d419cb71ba4d960b2e2815b7ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4594715908f801e675fe7a76f641c3c') in 0.0091472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_D_Large_NoLight.png
+  artifactKey: Guid(6e27d0afce01ed84592e15f11ec5b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_D_Large_NoLight.png using Guid(6e27d0afce01ed84592e15f11ec5b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81ed2f89db490083bb619f855556f7e7') in 0.0096066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_B_Large_NoLight.png
+  artifactKey: Guid(30d3c8358c8c83845b901aa02578be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Pickup_2_B_Large_NoLight.png using Guid(30d3c8358c8c83845b901aa02578be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e46ee0110428187bb96dda8e2936f6a5') in 0.0096851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_3_A_Large_NoLight.png
+  artifactKey: Guid(369b741b49fac51408e400f6c124fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_3_A_Large_NoLight.png using Guid(369b741b49fac51408e400f6c124fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ee8ab6af1d4974cd892fe04057a606') in 0.0094704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_1_B_Large_NoLight.png
+  artifactKey: Guid(433646de51e0a4b48b0bad04a00b8c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Ship_1_B_Large_NoLight.png using Guid(433646de51e0a4b48b0bad04a00b8c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a448bf40aa9d3b3756d10fae230d0a') in 0.0117452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_4_D_Large_NoLight.png
+  artifactKey: Guid(9fe97a0c4a89261429cf513e03cfaa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Large - No light/Enemy_4_D_Large_NoLight.png using Guid(9fe97a0c4a89261429cf513e03cfaa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c85f0f3154dd75982e8b0b488794b6') in 0.0099794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.115784 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Boss_1_A_Medium.png
+  artifactKey: Guid(174514226af9947449bc7e8d6ba2603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Boss_1_A_Medium.png using Guid(174514226af9947449bc7e8d6ba2603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dca0a949f9628860b2aa26df2dc479b') in 0.0112756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_4_B_Medium.png
+  artifactKey: Guid(ce26169a11f74ac49ac45ab5e7ff94f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_4_B_Medium.png using Guid(ce26169a11f74ac49ac45ab5e7ff94f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c2ab0a7dfa39ea63a7524a06b28cb9a') in 0.0124054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_2_D_Medium.png
+  artifactKey: Guid(94cfbc7054997d04597e711988ddc78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_2_D_Medium.png using Guid(94cfbc7054997d04597e711988ddc78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300a196d001129bd8070fba6c87d3383') in 0.0103523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Missile_B_Medium.png
+  artifactKey: Guid(da523ed5c48806d4eb784bc9360ed0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Missile_B_Medium.png using Guid(da523ed5c48806d4eb784bc9360ed0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f164666284fb101e6f1e61ab063dffe') in 0.009948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_1_C_Medium.png
+  artifactKey: Guid(a696aedc20f96ca42be97fda786a93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_1_C_Medium.png using Guid(a696aedc20f96ca42be97fda786a93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '879e3e87a38273977ae4d61a99db7ca6') in 0.0110372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_2_B_Medium.png
+  artifactKey: Guid(5cf88498d57711b43b4f7177075f336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_2_B_Medium.png using Guid(5cf88498d57711b43b4f7177075f336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7631efaf855372dd7068140bfb9e7ef') in 0.0095401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_1_C_Medium.png
+  artifactKey: Guid(b502f4a19a791234aa106bde5104e7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_1_C_Medium.png using Guid(b502f4a19a791234aa106bde5104e7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9733d06b46c181a8ce5c159658e08c67') in 0.0125657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_4_A_Medium.png
+  artifactKey: Guid(8f99799b4fed8d44a8d4bd51cfa49125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_4_A_Medium.png using Guid(8f99799b4fed8d44a8d4bd51cfa49125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ac7ebffb21c1b086434023aeb3b1daf') in 0.0119114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_2_A_Medium.png
+  artifactKey: Guid(6c9ffb4fc14e9e943a5d2102558a1ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_2_A_Medium.png using Guid(6c9ffb4fc14e9e943a5d2102558a1ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05db2bdd0dfd18cee0c73d4a9862885') in 0.0119019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_2_A_Medium.png
+  artifactKey: Guid(9829651262119ec45bd169dbd9b127aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_2_A_Medium.png using Guid(9829651262119ec45bd169dbd9b127aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b5293a07da2343ee843612c240da722') in 0.0133076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_1_C_Medium.png
+  artifactKey: Guid(9ffdeca0da196d44f80ca3e8fdfbf684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_1_C_Medium.png using Guid(9ffdeca0da196d44f80ca3e8fdfbf684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63f351de119fcddfa47ff3b8d7cb855e') in 0.0134806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_2_C_Medium.png
+  artifactKey: Guid(6bdc55fa15037804eb4bf073c9a71238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_2_C_Medium.png using Guid(6bdc55fa15037804eb4bf073c9a71238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a683c8b53f94d9917e21ad37fd96d0b') in 0.0099702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_3_C_Medium.png
+  artifactKey: Guid(417f25b39d7505044a332624ff93bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_3_C_Medium.png using Guid(417f25b39d7505044a332624ff93bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '712ea732e66cfb135099b360b38a4395') in 0.0100229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_2_A_Medium.png
+  artifactKey: Guid(eb8b99d099fd5f240b682944aa0f0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_2_A_Medium.png using Guid(eb8b99d099fd5f240b682944aa0f0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '918bad72d4390e89b3593a25016caa1c') in 0.0113709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_3_A_Medium.png
+  artifactKey: Guid(6bd63e8333d78fc4ba7fba0a77b916f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_3_A_Medium.png using Guid(6bd63e8333d78fc4ba7fba0a77b916f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75164e044800654109ca8a5760b060b2') in 0.0104832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_2_B_Medium.png
+  artifactKey: Guid(74fd76772e171e544a37171ee30eb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_2_B_Medium.png using Guid(74fd76772e171e544a37171ee30eb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e65e0d1d9ea6cdf3320346e38e27aadf') in 0.0115081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_1_D_Medium.png
+  artifactKey: Guid(822f5e557cfa3a1488f3c60eac3b9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Pickup_1_D_Medium.png using Guid(822f5e557cfa3a1488f3c60eac3b9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e4197d2501dbb96258af8f63fa11c75') in 0.0103999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_1_A_Medium.png
+  artifactKey: Guid(4a2c58b97584433418a837b65218a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Ship_1_A_Medium.png using Guid(4a2c58b97584433418a837b65218a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31a34e735f6c4ec71edcbbd355bb5d08') in 0.0114538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_1_D_Medium.png
+  artifactKey: Guid(73e2bbb1a5116924abf0a2bd87976b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Medium/Enemy_1_D_Medium.png using Guid(73e2bbb1a5116924abf0a2bd87976b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '502c71250795784f88896c42d87effc7') in 0.0118017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580376 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Boss_1_B_Small.png
+  artifactKey: Guid(b2630a91d04d0b54fbf651ee98a642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Boss_1_B_Small.png using Guid(b2630a91d04d0b54fbf651ee98a642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd450c3f93c1fec89b5f55cac3ea65db') in 0.0132517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_C_Small.png
+  artifactKey: Guid(d017d5c67de880d4d8f1dae6a928c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_C_Small.png using Guid(d017d5c67de880d4d8f1dae6a928c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcaf4da6af9ec954868eba64e012e5df') in 0.010734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_B_Small.png
+  artifactKey: Guid(d66ff8e17a1a9f74baab78a0bd045923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_B_Small.png using Guid(d66ff8e17a1a9f74baab78a0bd045923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79f6db8a92523c6c969d2dc67a0e4f76') in 0.0120963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Ship_1_D_Small.png
+  artifactKey: Guid(da0ccc7eae87ee74d809b6f3fa90a99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Ship_1_D_Small.png using Guid(da0ccc7eae87ee74d809b6f3fa90a99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd3f2c14efcd7246b50df22b016742c') in 0.0116976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_1_C_Small.png
+  artifactKey: Guid(96c182b6841f29744b1875cf1f114cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_1_C_Small.png using Guid(96c182b6841f29744b1875cf1f114cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7307d4c1cc3ac8fa7b5ea02fa593762') in 0.0107901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Ship_1_B_Small.png
+  artifactKey: Guid(1fe3e86f4e6f96348ac11426685fc224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Ship_1_B_Small.png using Guid(1fe3e86f4e6f96348ac11426685fc224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88724156bd11ac5a5f61b21ca686a95b') in 0.0104174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_1_A_Small.png
+  artifactKey: Guid(af6ab527a0e79db4cb868f38c3a5afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_1_A_Small.png using Guid(af6ab527a0e79db4cb868f38c3a5afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '296cbe98c459835b769697bae70a323b') in 0.0101432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Missile_D_Small.png
+  artifactKey: Guid(228e144b3ca2cd142870ff07d4fa53f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Missile_D_Small.png using Guid(228e144b3ca2cd142870ff07d4fa53f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '736dfc85fbafaa5558b914ac9410b6df') in 0.0092726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_A_Small.png
+  artifactKey: Guid(c4dca8ef7e714c847a77e13f1db5aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_A_Small.png using Guid(c4dca8ef7e714c847a77e13f1db5aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c231af1a03457e2df6fed9af589287e0') in 0.0095829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_D_Small.png
+  artifactKey: Guid(06ee48a25c7e17f46a53d36c029e185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_3_D_Small.png using Guid(06ee48a25c7e17f46a53d36c029e185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c83b42d417c903be5e39fd4b0f3149bc') in 0.010065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_1_D_Small.png
+  artifactKey: Guid(04bec3e1be154f44185c6a893d51c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 2D Space Shooter - Free/Sprites/Small/Pickup_1_D_Small.png using Guid(04bec3e1be154f44185c6a893d51c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '750d70bdbc605ae7c3f1b75f352dcf43') in 0.0100117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1045.050295 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Prefabs/General/bg_space.prefab
+  artifactKey: Guid(d312ef58beaf6410f96e9ccffa53f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Prefabs/General/bg_space.prefab using Guid(d312ef58beaf6410f96e9ccffa53f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c4f0e90a39c01ce1bff9fbe3c792b4a') in 0.0158548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Prefabs/General/rocket_explosion_01.prefab
+  artifactKey: Guid(571a784b07d4a4cb29f295308db5da48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Prefabs/General/rocket_explosion_01.prefab using Guid(571a784b07d4a4cb29f295308db5da48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd620c489e25deadc7cc2a3e7463c21f8') in 0.0168093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.131224 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Backgrounds/bg_space.png
+  artifactKey: Guid(993680d588aa3439fbae8c3dbb5a4ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Backgrounds/bg_space.png using Guid(993680d588aa3439fbae8c3dbb5a4ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83d2038f8342f60c0427d05ced32071a') in 0.0155118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.987769 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/engine_particle.png
+  artifactKey: Guid(2fd64ef7b15f040359e01f62bac2f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/engine_particle.png using Guid(2fd64ef7b15f040359e01f62bac2f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97fc641b9a80dfc3211a8ae64c51c9a4') in 0.0139062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752128 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/bullet_hit/bullet_hit_01.png
+  artifactKey: Guid(92328d66f0faa452eada479315396311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/bullet_hit/bullet_hit_01.png using Guid(92328d66f0faa452eada479315396311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dc922549877bc9acb53d177a495655f') in 0.016969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/bullet_hit/bullet_hit_04.png
+  artifactKey: Guid(95afebf3f3ff34d6eb7e196cd23f2e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/bullet_hit/bullet_hit_04.png using Guid(95afebf3f3ff34d6eb7e196cd23f2e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9fe9d606feecb9ae7649580e4deed37') in 0.0153531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.677313 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_01.png
+  artifactKey: Guid(e198dcf11f1034ea8bd4a1f4b77d193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_01.png using Guid(e198dcf11f1034ea8bd4a1f4b77d193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0843a47f5886611bda8747fc63f0cbf') in 0.019206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_04.png
+  artifactKey: Guid(b512d1bee615842b391d70d54f835f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_04.png using Guid(b512d1bee615842b391d70d54f835f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c243f7151e529bdb8bdd1e0ca429dce') in 0.0159958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_03.png
+  artifactKey: Guid(922772772912847ca905474c88e65910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_03.png using Guid(922772772912847ca905474c88e65910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '757bfeefa8222ace2d059e4e16a4f8d1') in 0.0119199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_05.png
+  artifactKey: Guid(96cba13f2376d456b85d9a66d944b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_05.png using Guid(96cba13f2376d456b85d9a66d944b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad737c349edbcfafbb2c7a81a6ed47f9') in 0.0143447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_06.png
+  artifactKey: Guid(45c4e920c254241ee8df524b58f8c0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Effects/rocket_explosion/rocket_explosion_06.png using Guid(45c4e920c254241ee8df524b58f8c0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3f82d01997fae55141aca3689848993') in 0.0089985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.793426 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Spaceships/Humans/Humans_Color_01/humans_boss_01.png
+  artifactKey: Guid(79e6c7a5802734b0ab68d9d52f79d796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Spaceships/Humans/Humans_Color_01/humans_boss_01.png using Guid(79e6c7a5802734b0ab68d9d52f79d796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '808d26f5140d5aa64f0b94791a109dce') in 0.0186138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Spaceships/Humans/Humans_Color_01/humans_ship_05.png
+  artifactKey: Guid(4e9884693f1d94bf0a2d42c9f0d758cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Copyspright/Pixel Space Shooter - Free/Sprites/Spaceships/Humans/Humans_Color_01/humans_ship_05.png using Guid(4e9884693f1d94bf0a2d42c9f0d758cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850abe974ae2c5bcbab4b7857e926331') in 0.0137435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

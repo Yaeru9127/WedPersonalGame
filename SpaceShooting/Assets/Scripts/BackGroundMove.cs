@@ -1,33 +1,21 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class BackGroundMove : MonoBehaviour
+public class BackGroundMove : SetBackGrounds
 {
-    Vector2 startPos;
+    private Sprite sprite;                          //画面外判定用Sprite
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        startPos = GetStartPosition();
+        //初期化
+        sprite = this.gameObject.GetComponent<Image>().sprite;
+        //float test = backGroundSpeed;
     }
 
-    /// <summary>
-    /// 背景画像のリセットポジション設定関数
-    /// </summary>
-    /// <returns></returns>
-    private Vector2 GetStartPosition()
-    {
-        //nullチェック
-        if (this.gameObject.transform.parent == null) Debug.LogError("this object's parent is null");
-
-        //Panelなので、親であるCanvasの中心座標を取得
-        GameObject parent = this.gameObject.transform.parent.gameObject;
-        RectTransform canvasRect = parent.GetComponent<RectTransform>();
-
-        return canvasRect.rect.center;
-    }
-
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         
     }

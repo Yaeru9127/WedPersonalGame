@@ -1,22 +1,47 @@
-using NUnit.Framework;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class BackGroundMove : SetBackGrounds
+public class BackGroundMove : MonoBehaviour
 {
-    private Sprite sprite;                          //画面外判定用Sprite
+    private RectTransform rect;
+
+    private Vector3 startPos;                   //背景のリセットポジション
+    private Vector2 moveDirection = new Vector2(0, -1);
+    private const float backGroundSpeed = 100f; //背景の移動速度
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //初期化
-        sprite = this.gameObject.GetComponent<Image>().sprite;
-        //float test = backGroundSpeed;
+        rect = this.gameObject.GetComponent<RectTransform>();
+
+        //デバッグ
+        //if (rect == null) Debug.LogError("error");
+        //else if (rect != null) Debug.Log("not null");
     }
 
-    private void FixedUpdate()
+    public void GetStartPos(Vector3 pos)
     {
-        
+        startPos = pos;
+    }
+
+    private void MoveBackGround()
+    {
+        if (GameManager.instance != null && GameManager.instance.SetPause) return;
+
+        //背景の移動
+        Vector2 move = moveDirection.normalized * backGroundSpeed * Time.deltaTime;
+        rect.anchoredPosition += move;
+
+        //画面外になったらリセットポジションに移動
+        if (rect.anchoredPosition.y <= -450)
+        {
+            rect.anchoredPosition = startPos;
+        }
+    }
+
+    private void Update()
+    {
+        MoveBackGround();
     }
 }

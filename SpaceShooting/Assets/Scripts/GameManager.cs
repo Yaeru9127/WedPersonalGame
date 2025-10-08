@@ -5,7 +5,8 @@ public class GameManager : MonoBehaviour
     private static GameManager gameManager;
     public static GameManager instance => gameManager;
 
-    protected bool isPause;
+    private bool isPause;
+    private const float backGroundSpeed = 100f; //背景の移動速度
 
     public bool SetPause
     {
@@ -17,11 +18,12 @@ public class GameManager : MonoBehaviour
             {
                 isPause = value;    //ポーズのオンオフ
                 Time.timeScale = isPause ? 0f : 1f;     //タイムスケールのオンオフ
-                PauseChange?.Invoke(isPause);
+                NotifyPause?.Invoke(isPause);
             }
         }
     }
-    public event System.Action<bool> PauseChange;
+    //ポーズ状態を通知するイベント
+    public event System.Action<bool> NotifyPause;
 
     private void Awake()
     {

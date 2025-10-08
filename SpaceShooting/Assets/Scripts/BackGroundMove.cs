@@ -7,13 +7,14 @@ public class BackGroundMove : MonoBehaviour
 
     private Vector3 startPos;                   //背景のリセットポジション
     private Vector2 moveDirection = new Vector2(0, -1);
-    private const float backGroundSpeed = 100f; //背景の移動速度
+    private float speed; //背景の移動速度
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //初期化
         rect = this.gameObject.GetComponent<RectTransform>();
+        speed = GameManager.instance.publicBackGroundSpeed;
 
         //デバッグ
         //if (rect == null) Debug.LogError("error");
@@ -25,12 +26,15 @@ public class BackGroundMove : MonoBehaviour
         startPos = pos;
     }
 
+    /// <summary>
+    /// 背景移動関数
+    /// </summary>
     private void MoveBackGround()
     {
         if (GameManager.instance != null && GameManager.instance.SetPause) return;
 
         //背景の移動
-        Vector2 move = moveDirection.normalized * backGroundSpeed * Time.deltaTime;
+        Vector2 move = moveDirection.normalized * speed * Time.deltaTime;
         rect.anchoredPosition += move;
 
         //画面外になったらリセットポジションに移動

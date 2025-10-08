@@ -2,14 +2,20 @@ using UnityEngine;
 
 public class InputSystemManager : MonoBehaviour
 {
-    public static InputSystemManager input {  get; private set; }
-
+    private static InputSystemManager inputSystemManager;
+    public static InputSystemManager instance => inputSystemManager;
     private InputSystem_Actions actions;
 
     private void Awake()
     {
-        if (input == null) input = this;
-        else if (input != null) Destroy(this.gameObject);
+        //ƒVƒ“ƒOƒ‹ƒgƒ“
+        if (inputSystemManager != null && inputSystemManager != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        inputSystemManager = this;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

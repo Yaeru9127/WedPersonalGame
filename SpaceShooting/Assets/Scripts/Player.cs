@@ -6,6 +6,19 @@ public class Player : MonoBehaviour
 {
     private InputSystem_Actions action;
 
+    //戦闘機のレベル
+    [HideInInspector]
+    public enum Level
+    {
+        Zero = 0,
+        One = 1,
+        Two = 2,
+        Three = 3,
+        Four = 4,
+        Five = 5
+    }
+    public Level level;
+
     private float bulletInterval;
     private IDisposable shootStream;
 
@@ -22,10 +35,11 @@ public class Player : MonoBehaviour
         InputSystemManager.instance.PlayerOn();
 
         bulletInterval = 0.2f;
+
+        /*攻撃時のポーズのチェック*/
         GameManager.instance.IsPause
             .Subscribe(pause =>
             {
-                /*攻撃時のポーズのチェック*/
                 //ポーズOn
                 if (pause)
                 {
@@ -46,6 +60,9 @@ public class Player : MonoBehaviour
             .AddTo(this);
     }
 
+    /// <summary>
+    /// プレイヤーの攻撃処理関数
+    /// </summary>
     private void Fire()
     {
         Debug.Log("fire");

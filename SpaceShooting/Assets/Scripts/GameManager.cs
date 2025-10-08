@@ -1,4 +1,6 @@
 using UnityEngine;
+using UniRx;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,24 +25,26 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// ポーズ
     /// </summary>
-    private bool isPause;
+    private ReactiveProperty<bool> isPause = new ReactiveProperty<bool>(false);
+    public IReadOnlyReactiveProperty<bool> IsPause => isPause;
     public bool SetPause
     {
-        get => isPause;     //外部から現在の値を読み取る
+        get => isPause.Value;     //外部から現在の値を読み取る
         set
         {
             //値が変わったときだけ通知する
-            if (isPause != value)
+            if (isPause.Value != value)
             {
-                isPause = value;    //ポーズのオンオフ
-                Time.timeScale = isPause ? 0f : 1f;     //タイムスケールのオンオフ
-                NotifyPause?.Invoke(isPause);
+                isPause.Value = value;                        //ポーズのオンオフ
+                Time.timeScale = isPause.Value ? 0f : 1f;     //タイムスケールのオンオフ
             }
         }
     }
 
-    //ポーズ状態を通知するイベント
-    public event System.Action<bool> NotifyPause;
+    public bool GetPauseState()
+    {
+        return isPause.Value;
+    }
 
     private void Awake()
     {
@@ -52,6 +56,5 @@ public class GameManager : MonoBehaviour
         }
         gameManager = this;
         DontDestroyOnLoad(this.gameObject);
-        isPause = false;
     }
 }

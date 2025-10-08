@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class BackGroundMove : MonoBehaviour
 {
+    private GameManager manager;
     private RectTransform rect;
 
     private Vector3 startPos;                   //背景のリセットポジション
@@ -13,8 +14,9 @@ public class BackGroundMove : MonoBehaviour
     void Start()
     {
         //初期化
+        manager = GameManager.instance;
         rect = this.gameObject.GetComponent<RectTransform>();
-        speed = GameManager.instance.publicBackGroundSpeed;
+        speed = manager.publicBackGroundSpeed;
 
         //デバッグ
         //if (rect == null) Debug.LogError("error");
@@ -31,7 +33,7 @@ public class BackGroundMove : MonoBehaviour
     /// </summary>
     private void MoveBackGround()
     {
-        if (GameManager.instance != null && GameManager.instance.SetPause) return;
+        if (manager == null || manager.SetPause) return;
 
         //背景の移動
         Vector2 move = moveDirection.normalized * speed * Time.deltaTime;

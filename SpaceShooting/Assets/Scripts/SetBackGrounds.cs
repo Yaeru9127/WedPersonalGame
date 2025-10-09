@@ -63,13 +63,9 @@ public class SetBackGrounds : MonoBehaviour
         panels[0].anchoredPosition = Vector2.zero;
         panels[1].anchoredPosition = new Vector2(0, panels[0].rect.height);
 
-        //リセット位置の設定
-        restartPos = panels[1].anchoredPosition;
-        foreach (RectTransform panel in panels)
-        {
-            BackGroundMove backGroundMove = panel.GetComponent<BackGroundMove>();
-            backGroundMove.GetStartPos(restartPos);
-        }
+        //ペアの背景の設定
+        panels[0].GetComponent<BackGroundMove>().SetPairBackGroundPanel(panels[1]);
+        panels[1].GetComponent<BackGroundMove>().SetPairBackGroundPanel(panels[0]);
     }
 
     // Update is called once per frame

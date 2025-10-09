@@ -41,11 +41,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public bool GetPauseState()
-    {
-        return isPause.Value;
-    }
-
     private void Awake()
     {
         //ƒVƒ“ƒOƒ‹ƒgƒ“

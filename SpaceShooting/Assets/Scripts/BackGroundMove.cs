@@ -6,8 +6,7 @@ public class BackGroundMove : MonoBehaviour
     private GameManager manager;
     private RectTransform rect;
 
-    private Vector3 startPos;                   //”wŒi‚ÌƒŠƒZƒbƒgƒ|ƒWƒVƒ‡ƒ“
-    private Vector2 moveDirection = new Vector2(0, -1);
+    private RectTransform pairBackPanel;    //‚à‚¤ˆê–‡‚Ì”wŒi
     private float speed; //”wŒi‚ÌˆÚ“®‘¬“x
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,9 +22,13 @@ public class BackGroundMove : MonoBehaviour
         //else if (rect != null) Debug.Log("not null");
     }
 
-    public void GetStartPos(Vector3 pos)
+    /// <summary>
+    /// ‚à‚¤ˆê–‡‚Ì”wŒi‚ğİ’è‚·‚éŠÖ”
+    /// </summary>
+    /// <param name="pair"></param>
+    public void SetPairBackGroundPanel(RectTransform pair)
     {
-        startPos = pos;
+        pairBackPanel = pair;
     }
 
     /// <summary>
@@ -36,13 +39,14 @@ public class BackGroundMove : MonoBehaviour
         if (manager == null || manager.SetPause) return;
 
         //”wŒi‚ÌˆÚ“®
-        Vector2 move = moveDirection.normalized * speed * Time.deltaTime;
-        rect.anchoredPosition += move;
+        rect.anchoredPosition += Vector2.down.normalized * speed * Time.deltaTime;
 
         //‰æ–ÊŠO‚É‚È‚Á‚½‚çƒŠƒZƒbƒgƒ|ƒWƒVƒ‡ƒ“‚ÉˆÚ“®
-        if (rect.anchoredPosition.y <= -450)
+        if (rect.anchoredPosition.y <= -rect.rect.height)
         {
-            rect.anchoredPosition = startPos;
+            //XÀ•W‚Í•Ï‚¦‚¸AYÀ•W‚Í(Œ»İ‚Ì‚‚³ + ”wŒi‚Ì‚‚³ -1)‚ÅŒ„ŠÔ‚ğ–h‚®
+            rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, 
+                pairBackPanel.anchoredPosition.y + rect.rect.height - 1);
         }
     }
 

@@ -1,6 +1,5 @@
 using UnityEngine;
 using UniRx;
-using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,10 +16,10 @@ public class GameManager : MonoBehaviour
     public float publicBackGroundSpeed => backGroundSpeed;
 
     /// <summary>
-    /// 弾発射のインターバル
+    /// 弾の発射のインターバル
     /// </summary>
-    private float interval;
-    public float publicInterval => interval;
+    private float bulletInterval = 0.2f;
+    public float publicBulletInterval => bulletInterval;
 
     /// <summary>
     /// ポーズ

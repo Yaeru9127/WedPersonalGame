@@ -1,0 +1,75 @@
+設計構成（クラスの分離）
+FighterController（共通の制御ロジック）
+  └ IFighterAttack (インターフェース)
+       ├ NormalAttack
+       ├ SpreadShotAttack
+       └ LaserAttack など
+
+インターフェース
+public interface IFighterAttack
+{
+    UniTask AttackAsync(CancellationToken token);
+}
+
+攻撃パターンごとのクラス
+public class NormalAttack : IFighterAttack
+{
+    private readonly Transform firePoint;
+    private readonly GameObject bulletPrefab;
+
+    public NormalAttack(Transform firePoint, GameObject bulletPrefab)
+    {
+        this.firePoint = firePoint;
+        this.bulletPrefab = bulletPrefab;
+    }
+
+    public async UniTask AttackAsync(CancellationToken token)
+    {
+        while (!token.IsCancellationRequested)
+        {
+            GameObject.Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            await UniTask.Delay(500, cancellationToken: token);
+        }
+    }
+}
+
+攻撃の起動や停止など
+public class FighterController : MonoBehaviour
+{
+    private IFighterAttack attackPattern;
+    private CancellationTokenSource attackCts;
+
+    public void Initialize(IFighterAttack attackPattern)
+    {
+        this.attackPattern = attackPattern;
+    }
+
+    private void OnEnable()
+    {
+        attackCts = new CancellationTokenSource();
+        attackPattern?.AttackAsync(attackCts.Token).Forget();
+    }
+
+    private void OnDisable()
+    {
+        attackCts?.Cancel();
+    }
+}
+
+戦闘機の種類ごとに設定するFactory（Optional）
+
+例えばプレイヤーの選択やステージによって攻撃パターンを変更したい場合、FactoryパターンもしくはDIコンテナ（Zenjectなど）を使って依存性を注入する形にします。
+public static class FighterFactory
+{
+    public static IFighterAttack CreateAttack(string fighterType, Transform firePoint, GameObject bulletPrefab)
+    {
+        return fighterType switch
+        {
+            "Normal" => new NormalAttack(firePoint, bulletPrefab),
+            "Spread" => new SpreadShotAttack(firePoint, bulletPrefab),
+            _ => new NormalAttack(firePoint, bulletPrefab),
+        };
+    }
+}
+
+

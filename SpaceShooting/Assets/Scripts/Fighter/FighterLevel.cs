@@ -6,7 +6,7 @@ public class FighterLevel
     private int level = 1;
 
     /// <summary>
-    /// レベルアップ関数
+    /// レベルアップ関数(仮)
     /// </summary>
     public void LevelUp()
     {

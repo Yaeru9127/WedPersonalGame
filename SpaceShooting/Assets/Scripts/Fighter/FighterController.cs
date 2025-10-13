@@ -3,21 +3,15 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-/*戦闘機の攻撃ロジック*/
-public class FighterAttack : MonoBehaviour
+/*戦闘機の共通制御ロジック*/
+public class FighterController : MonoBehaviour
 {
-    /// <summary>
-    /// Other Scripts
-    /// </summary>
-    private InputSystem_Actions actions;
-
     //戦闘機の複数の攻撃パターンのList
     private List<I_FighterAttack> attackPatterns = new List<I_FighterAttack>();
 
     //攻撃処理の非同期タスクをキャンセルするためのトークン管理オブジェクト
     //=> 攻撃を止めたい時にキャンセル処理を実行するために使う
     private CancellationTokenSource attackCTS;
-
 
     private void OnEnable()
     {
@@ -31,25 +25,16 @@ public class FighterAttack : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        actions = InputSystemManager.instance.GetActions();
-    }
-
-
-    /// <summary>
-    /// 攻撃ボタンの押してる判定を返す関数
-    /// </summary>
-    /// <returns></returns>
-    public bool GetActionKeyPressed()
-    {
-        return actions.Player.Attack.WasPressedThisFrame();
-    }
-
     private void OnDisable()
     {
         //実行中のタスクにキャンセル要求
         attackCTS?.Cancel();
+    }
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
     }
 
     /// <summary>
@@ -60,5 +45,11 @@ public class FighterAttack : MonoBehaviour
     {
         //攻撃パターンのリストを"attackPatterns"に保存する
         this.attackPatterns = attackPattern;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

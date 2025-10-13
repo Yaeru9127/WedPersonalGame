@@ -2,59 +2,36 @@ using Cysharp.Threading.Tasks;
 using System.Threading;
 using System;
 using UnityEngine;
-using System.Collections.Generic;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
-/*通常攻撃*/
-public class BulletAttack : I_FighterAttack, IDisposable
+public class BulletAttack : I_FighterAttack
 {
-    //攻撃ストリーム管理
-    private AttackTriggerStream attackStream = new AttackTriggerStream();
+    private Transform firePoint;    //弾生成場所
+    private GameObject bullet;      //弾のオブジェクト
+    private const float interval = 0.2f;         //攻撃のインターバル
 
-    private FighterAttack fighterAttack = new FighterAttack();
-
-    private List<Transform> firePoints = new List<Transform>();     //弾生成場所配列
-    private GameObject bulletPrefab;                                //弾のオブジェクト
-    private const float interval = 0.2f;                            //攻撃のインターバル
-
-    private BulletAttack()
+    public BulletAttack(Transform firePoint, GameObject bulletPrefab)
     {
-
+        this.firePoint = firePoint;
+        this.bullet = bulletPrefab;
     }
 
-    public BulletAttack(List<Transform> points, GameObject bulletPrefab)
+    public async UniTask AttackAsync(CancellationToken token)
     {
-        this.firePoints = points;
-        this.bulletPrefab = bulletPrefab;
-    }
+        try
+        {
+            //キャンセル要求が来るまでループを継続
+            while (!token.IsCancellationRequested)
+            {
+                /*攻撃処理*/
+                //発射間隔のインターバル
+                await UniTask.Delay((int)(interval * 1000f), cancellationToken: token);
 
-    public UniTask AttackAsync(CancellationToken token)
-    {
-        attackStream.StartAttackStream(
-            interval,                                       //連射時間のインターバル
-            () => fighterAttack.GetActionKeyPressed(),      //攻撃ボタンの判定取得
-            FireBullet,                                     //実際の攻撃処理
-            token
-            );
-
-        return UniTask.CompletedTask;
-    }
-
-    private void FireBullet()
-    {
-        if (firePoints == null || bulletPrefab == null) return;
-
-        Debug.Log("fire!");
-
-        //弾の生成
-        //GameObject bullet = GameObject.Instantiate(bulletPrefab, firePoint.position, bulletPrefab.transform.rotation);
-        //弾に速度を与えるなどの処理
-    }
-
-    public void Dispose()
-    {
-        attackStream?.Dispose();
+                /*ここに実際の攻撃処理（弾の生成、発射など）*/
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"AttackAsync error: {ex}");
+        }
     }
 }

@@ -5,7 +5,14 @@ using UnityEngine;
 
 public class BulletAttack : I_FighterAttack
 {
-    private Transform firePoint;    //弾生成場所
+    /// <summary>
+    /// Other Scripts
+    /// </summary>
+    private FighterAttack fighterAttack = new FighterAttack();
+
+    private AttackTriggerStream attackTrigger = new AttackTriggerStream();
+
+    private List<Transform> firePoints = new List<Transform>();    //弾生成場所
     private GameObject bullet;      //弾のオブジェクト
     private const float interval = 0.2f;         //攻撃のインターバル
 
@@ -17,21 +24,18 @@ public class BulletAttack : I_FighterAttack
 
     public async UniTask AttackAsync(CancellationToken token)
     {
-        try
-        {
-            //キャンセル要求が来るまでループを継続
-            while (!token.IsCancellationRequested)
-            {
-                /*攻撃処理*/
-                //発射間隔のインターバル
-                await UniTask.Delay((int)(interval * 1000f), cancellationToken: token);
+        attackTrigger.StartAttackStream(
+            interval,
+            () => fighterAttack.GetAttackKeyPressed(),
+            FIreBullet,
+            token
+            );
+    }
 
-                /*ここに実際の攻撃処理（弾の生成、発射など）*/
-            }
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"AttackAsync error: {ex}");
-        }
+    private void FIreBullet()
+    {
+        if (firePoints == null || bullet == null) return;
+
+        Debug.Log("fire!");
     }
 }

@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using System.Threading;
-using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class BulletAttack : I_FighterAttack
 {
@@ -16,13 +16,13 @@ public class BulletAttack : I_FighterAttack
     private GameObject bullet;      //弾のオブジェクト
     private const float interval = 0.2f;         //攻撃のインターバル
 
-    public BulletAttack(Transform firePoint, GameObject bulletPrefab)
+    public BulletAttack(List<Transform> firePoint, GameObject bulletPrefab)
     {
-        this.firePoint = firePoint;
+        this.firePoints = firePoint;
         this.bullet = bulletPrefab;
     }
 
-    public async UniTask AttackAsync(CancellationToken token)
+    public UniTask AttackAsync(CancellationToken token)
     {
         attackTrigger.StartAttackStream(
             interval,
@@ -30,6 +30,8 @@ public class BulletAttack : I_FighterAttack
             FIreBullet,
             token
             );
+
+        return UniTask.CompletedTask;
     }
 
     private void FIreBullet()

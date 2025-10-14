@@ -9,9 +9,9 @@ public class FighterAttack : MonoBehaviour
     /// <summary>
     /// Other Scripts
     /// </summary>
-    private InputSystem_Actinos actions;
+    private InputSystem_Actions actions;
 
-    //戦闘機の複数の攻撃パターンのList
+    //戦闘機の攻撃パターンList
     private List<I_FighterAttack> attackPatterns = new List<I_FighterAttack>();
 
     //攻撃処理の非同期タスクをキャンセルするためのトークン管理オブジェクト
@@ -41,7 +41,7 @@ public class FighterAttack : MonoBehaviour
     /// <returns></returns>
     public bool GetAttackKeyPressed()
     {
-        return actions.Player.Attack.ReadValue<Button>();
+        return actions.Player.Attack.ReadValue<bool>();
     }
 
     /// <summary>

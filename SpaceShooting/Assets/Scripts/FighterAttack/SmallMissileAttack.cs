@@ -3,7 +3,7 @@ using System.Threading;
 using UnityEngine;
 using System.Collections.Generic;
 
-public class BulletAttack : I_FighterAttack
+public class SmallMissileAttack : I_FighterAttack
 {
     /// <summary>
     /// Other Scripts
@@ -11,14 +11,14 @@ public class BulletAttack : I_FighterAttack
     private FighterAttack fighterAttack = new FighterAttack();
     private AttackTriggerStream attackTrigger = new AttackTriggerStream();
 
-    private List<Transform> firePoints = new List<Transform>();    //弾生成場所
-    private GameObject bullet;      //弾のオブジェクト
-    private const float interval = 0.2f;         //攻撃のインターバル
+    private List<Transform> firePoints = new List<Transform>();     //弾生成場所
+    private GameObject smallMissile;                                //ミサイルオブジェクト
+    private const float interval = 0.7f;                            //攻撃のインターバル
 
-    public BulletAttack(List<Transform> firePoint, GameObject bulletPrefab)
+    public SmallMissileAttack(List<Transform> points, GameObject smallMissilePrefab)
     {
-        this.firePoints = firePoint;
-        this.bullet = bulletPrefab;
+        this.firePoints = points;
+        this.smallMissile = smallMissilePrefab;
     }
 
     public UniTask AttackAsync(CancellationToken token)
@@ -26,7 +26,7 @@ public class BulletAttack : I_FighterAttack
         attackTrigger.StartAttackStream(
             interval,
             () => fighterAttack.GetAttackKeyPressed(),
-            FireBullet,
+            FireSmallMiisile,
             token
             );
 
@@ -34,17 +34,18 @@ public class BulletAttack : I_FighterAttack
     }
 
     /// <summary>
-    /// 弾を発射する関数
+    /// 小ミサイルを発射する関数
     /// </summary>
-    private void FireBullet()
+    private void FireSmallMiisile()
     {
-        if (firePoints == null || bullet == null) return;
+        if (firePoints == null || smallMissile == null) return;
 
-        Debug.Log("fire!");
+        Debug.Log("fire small missile");
     }
 
     public void Dispose()
     {
         attackTrigger.Dispose();
     }
+
 }

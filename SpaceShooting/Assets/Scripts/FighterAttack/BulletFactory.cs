@@ -1,8 +1,7 @@
-using UnityEditor;
 using UnityEngine;
 using static FighterType;
 
-/*’e‚Ì¶¬ƒNƒ‰ƒX*/
+/*’e‚Ì¶¬*/
 public class BulletFactory
 {
     public void CreateBullet(TypeOfFighter type, int l)

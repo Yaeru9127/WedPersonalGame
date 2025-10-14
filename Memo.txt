@@ -1,0 +1,17 @@
+戦闘機の初期化メモ
+1:FighterAttackを取得
+（例：プレイヤーの機体にアタッチ済みの場合）
+FighterAttack fighterAttack = GetComponent<FighterAttack>();
+
+2:弾の生成場所や弾のプレファブを取得
+（例：Inspecterなどで設定されている場合）
+List<Transform> firePoints = new List<Transform> { firePoint1, firePoint2 }; 
+GameObject bulletPrefab = bulletPrefabReference;
+
+3:攻撃のインスタンスを作成
+（例：BulletAttackの場合）
+var bulletAttack = new BulletAttack(firePoints, bulletPrefab);
+
+4:生成したインスタンスを攻撃パターンとして登録
+（例：BulletAttackの場合）
+fighterAttack.Initialize(new List<I_FighterAttack> { bulletAttack });

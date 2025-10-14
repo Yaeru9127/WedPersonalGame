@@ -41,7 +41,7 @@ public class FighterAttack : MonoBehaviour
     /// <returns></returns>
     public bool GetAttackKeyPressed()
     {
-        return actions.Player.Attack.ReadValue<bool>();
+        return actions.Player.Attack.ReadValue<float>() >= 0.5f;
     }
 
     /// <summary>
@@ -52,6 +52,26 @@ public class FighterAttack : MonoBehaviour
     {
         //攻撃パターンのリストを"attackPatterns"に保存する
         this.attackPatterns = attackPattern;
+    }
+
+    /// <summary>
+    /// 攻撃パターンに追加する関数
+    /// </summary>
+    /// <param name="newAttack"></param>
+    public void AddAttackPattern(I_FighterAttack newAttack)
+    {
+        attackPatterns.Add(newAttack);
+        newAttack.AttackAsync(attackCTS.Token).Forget();
+    }
+
+    /// <summary>
+    /// 攻撃パターンから削除する関数
+    /// </summary>
+    /// <param name="attack"></param>
+    public void RemoveAttackPattern(I_FighterAttack attack)
+    {
+        attack.Dispose();
+        attackPatterns.Remove(attack);
     }
 
     private void OnDisable()

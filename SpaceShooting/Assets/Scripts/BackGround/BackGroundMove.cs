@@ -6,7 +6,7 @@ public class BackGroundMove : MonoBehaviour
     private RectTransform rect;     //My Component
 
     private RectTransform pairBackPanel;    //‚à‚¤ˆê–‡‚Ì”wŒi
-    private float speed; //”wŒi‚ÌˆÚ“®‘¬“x
+    private float speed = 100f; //”wŒi‚ÌˆÚ“®‘¬“x
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,7 +14,6 @@ public class BackGroundMove : MonoBehaviour
         //‰Šú‰»
         manager = GameManager.instance;
         rect = this.gameObject.GetComponent<RectTransform>();
-        speed = manager.publicBackGroundSpeed;
 
         //ƒfƒoƒbƒO
         //if (rect == null) Debug.LogError("error");

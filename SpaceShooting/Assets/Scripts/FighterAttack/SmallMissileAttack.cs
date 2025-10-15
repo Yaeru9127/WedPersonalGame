@@ -2,6 +2,8 @@ using Cysharp.Threading.Tasks;
 using System.Threading;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class SmallMissileAttack : I_FighterAttack
 {
@@ -11,14 +13,38 @@ public class SmallMissileAttack : I_FighterAttack
     private FighterAttack fighterAttack = new FighterAttack();
     private AttackTriggerStream attackTrigger = new AttackTriggerStream();
 
-    private List<Transform> firePoints = new List<Transform>();     //弾生成場所
+    private Transform firePoint;     //弾生成場所
     private GameObject smallMissile;                                //ミサイルオブジェクト
     private const float interval = 0.7f;                            //攻撃のインターバル
 
-    public SmallMissileAttack(List<Transform> points, GameObject smallMissilePrefab)
+    public SmallMissileAttack(Transform point)
     {
-        this.firePoints = points;
-        this.smallMissile = smallMissilePrefab;
+        this.firePoint = point;
+        SetSmallMissilePrefab().Forget();
+    }
+
+    private async UniTask SetSmallMissilePrefab()
+    {
+        //アドレスから取得
+        AsyncOperationHandle<GameObject> handle = Addressables.LoadAssetAsync<GameObject>("smallMissile");
+        GameObject prefab;
+
+        try
+        {
+            prefab = await handle.ToUniTask();
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogError("Asset loading failed" + ex);
+            return;
+        }
+        finally
+        {
+            //リリース
+            Addressables.Release(handle);
+        }
+
+        this.smallMissile = prefab;
     }
 
     public UniTask AttackAsync(CancellationToken token)
@@ -38,7 +64,7 @@ public class SmallMissileAttack : I_FighterAttack
     /// </summary>
     private void FireSmallMiisile()
     {
-        if (firePoints == null || smallMissile == null) return;
+        if (firePoint == null || smallMissile == null) return;
 
         Debug.Log("fire small missile");
     }

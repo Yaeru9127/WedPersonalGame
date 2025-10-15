@@ -3,12 +3,11 @@ using UnityEngine;
 public class FighterType
 {
     //戦闘機の種類
-    [HideInInspector]
     public enum TypeOfFighter
     {
-        FighterExcalibur,  //ファイターエクスカリバー
-        FrigateCorsair,   //フリゲート艦コルセア
-        DestroyerPhoenix    //駆逐艦フェニックス
+        FighterExcalibur,       //ファイターエクスカリバー
+        FrigateCorsair,         //フリゲート艦コルセア
+        DestroyerPhoenix        //駆逐艦フェニックス
     }
     private TypeOfFighter fighterType;
 
@@ -22,7 +21,7 @@ public class FighterType
     }
 
     /// <summary>
-    /// 戦闘機の種類の設定関数
+    /// 戦闘機の種類を取得する関数
     /// </summary>
     /// <returns></returns>
     public TypeOfFighter GetFighterType()

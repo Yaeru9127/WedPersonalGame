@@ -2,6 +2,10 @@ using Cysharp.Threading.Tasks;
 using System.Threading;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Net;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using System.Threading.Tasks;
 
 public class BulletAttack : I_FighterAttack
 {
@@ -11,14 +15,38 @@ public class BulletAttack : I_FighterAttack
     private FighterAttack fighterAttack = new FighterAttack();
     private AttackTriggerStream attackTrigger = new AttackTriggerStream();
 
-    private List<Transform> firePoints = new List<Transform>();    //弾生成場所
-    private GameObject bullet;      //弾のオブジェクト
-    private const float interval = 0.2f;         //攻撃のインターバル
+    private Transform firePoint;     //弾生成場所
+    private GameObject bullet;                                      //弾のオブジェクト
+    private const float interval = 0.2f;                            //攻撃のインターバル
 
-    public BulletAttack(List<Transform> firePoint, GameObject bulletPrefab)
+    public BulletAttack(Transform firePoint)
     {
-        this.firePoints = firePoint;
-        this.bullet = bulletPrefab;
+        this.firePoint = firePoint;
+        SetBulletPrefab().Forget();
+    }
+
+    private async UniTask SetBulletPrefab()
+    {
+        //アドレスから取得
+        AsyncOperationHandle<GameObject> handle = Addressables.LoadAssetAsync<GameObject>("bullet");
+        GameObject prefab;
+
+        try
+        {
+            prefab = await handle.ToUniTask();
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogError("Asset loading failed" + ex);
+            return;
+        }
+        finally
+        {
+            //リリース
+            Addressables.Release(handle);
+        }
+
+        this.bullet = prefab;
     }
 
     public UniTask AttackAsync(CancellationToken token)
@@ -26,7 +54,7 @@ public class BulletAttack : I_FighterAttack
         attackTrigger.StartAttackStream(
             interval,
             () => fighterAttack.GetAttackKeyPressed(),
-            FireBullet,
+            () => FireBullet().Forget(),
             token
             );
 
@@ -36,11 +64,13 @@ public class BulletAttack : I_FighterAttack
     /// <summary>
     /// 弾を発射する関数
     /// </summary>
-    private void FireBullet()
+    private async UniTask FireBullet()
     {
-        if (firePoints == null || bullet == null) return;
+        if (firePoint == null || bullet == null) return;
 
-        Debug.Log("fire!");
+        Debug.Log("bullet fire!");
+
+        
     }
 
     public void Dispose()

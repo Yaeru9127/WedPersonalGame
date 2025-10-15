@@ -10,18 +10,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance => gameManager;
 
     /// <summary>
-    /// 背景の移動速度
-    /// </summary>
-    private const float backGroundSpeed = 100f;
-    public float publicBackGroundSpeed => backGroundSpeed;
-
-    /// <summary>
-    /// 弾の発射のインターバル
-    /// </summary>
-    private float bulletInterval = 0.2f;
-    public float publicBulletInterval => bulletInterval;
-
-    /// <summary>
     /// ポーズ
     /// </summary>
     private ReactiveProperty<bool> isPause = new ReactiveProperty<bool>(false);

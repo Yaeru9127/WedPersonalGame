@@ -22,12 +22,6 @@ public class FighterAttack : MonoBehaviour
     {
         //新たなCancellationTokenSourceを生成
         attackCTS = new CancellationTokenSource();
-
-        //attackPatternsに登録された全ての攻撃パターンに対して非同期で攻撃処理を開始する
-        foreach (var attack in attackPatterns)
-        {
-            attack.AttackAsync(attackCTS.Token).Forget();
-        }
     }
 
     private void Start()
@@ -48,7 +42,7 @@ public class FighterAttack : MonoBehaviour
     /// 戦闘機の攻撃パターンを外部からセットする関数
     /// </summary>
     /// <param name="attackPattern"></param>
-    public void Initialize(List<I_FighterAttack> attackPattern)
+    public void SetAttackPattern(List<I_FighterAttack> attackPattern)
     {
         //攻撃パターンのリストを"attackPatterns"に保存する
         this.attackPatterns = attackPattern;

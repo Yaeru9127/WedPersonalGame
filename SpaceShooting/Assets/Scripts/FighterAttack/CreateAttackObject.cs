@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-/*’e‚Ì¶¬*/
 public class CreateAttackObject
 {
     public async Task<GameObject> LoadAndInstantiate(string address)

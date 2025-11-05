@@ -1,5 +1,3 @@
-using UnityEngine;
-
 /*レベル管理*/
 public class FighterLevel
 {
@@ -11,6 +9,14 @@ public class FighterLevel
     public void LevelUp()
     {
         level++;
+    }
+
+    /// <summary>
+    /// レベルダウン関数(仮)
+    /// </summary>
+    public void LevelDown()
+    {
+        level--;
     }
 
     /// <summary>

@@ -15,7 +15,7 @@ public class FighterAttack : MonoBehaviour
     private List<I_FighterAttack> attackPatterns = new List<I_FighterAttack>();
 
     //攻撃処理の非同期タスクをキャンセルするためのトークン管理オブジェクト
-    //=> 攻撃を止めたい時にキャンセル処理を実行するために使う
+    //=> 攻撃のキャンセル処理を実行するために使う
     private CancellationTokenSource attackCTS;
 
     private void OnEnable()

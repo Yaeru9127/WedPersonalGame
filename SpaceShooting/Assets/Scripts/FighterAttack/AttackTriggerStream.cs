@@ -30,7 +30,7 @@ public class AttackTriggerStream : IDisposable
                     stream = Observable.EveryUpdate()                       //イベントストリームの作成
                     .Where(_ => isAttackPresed())                           //攻撃ボタンが押されている間のみイベントを通す
                         .ThrottleFirst(TimeSpan.FromSeconds(interval))      //連射速度制限
-                        .TakeUntilDestroy(GameManager.instance)             //GameManager.instanceが破棄
+                        .TakeUntilDestroy(GameManager.instance)             //GameManager.instanceが破棄 or
                         .TakeUntilDisable(GameManager.instance)             //GameManager.instanceが無効化されるまで購読を継続
                         .Subscribe(_ =>
                         {

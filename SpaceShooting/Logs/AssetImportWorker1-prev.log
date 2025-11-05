@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.41f1 (46e447368a18) revision 4645959'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ja' Physical Memory: 16154 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ja' Physical Memory: 32440 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/watar/Desktop/SpaceShoot/SpaceShooting
+C:/Users/ktc/Desktop/新しいフォルダー/SpaceShooting
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50404
+54977
 -job-worker-count
-5
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/watar/Desktop/SpaceShoot/SpaceShooting
-C:/Users/watar/Desktop/SpaceShoot/SpaceShooting
+Successfully changed project path to: C:/Users/ktc/Desktop/新しいフォルダー/SpaceShooting
+C:/Users/ktc/Desktop/新しいフォルダー/SpaceShooting
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,21 @@ C:/Users/watar/Desktop/SpaceShoot/SpaceShooting
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9720]  Target information:
+Player connection [29652]  Target information:
 
-Player connection [9720]  * "[IP] 192.168.179.21 [Port] 0 [Flags] 2 [Guid] 2108069021 [EditorId] 2108069021 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S5DO4GM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29652]  * "[IP] 172.22.90.104 [Port] 0 [Flags] 2 [Guid] 4284945533 [EditorId] 4284945533 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9720] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9720] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [29652]  * "[IP] 172.18.176.1 [Port] 0 [Flags] 2 [Guid] 4284945533 [EditorId] 4284945533 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29652]  * "[IP] 192.168.217.1 [Port] 0 [Flags] 2 [Guid] 4284945533 [EditorId] 4284945533 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29652]  * "[IP] 192.168.172.1 [Port] 0 [Flags] 2 [Guid] 4284945533 [EditorId] 4284945533 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29652]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4284945533 [EditorId] 4284945533 [Version] 1048832 [Id] WindowsEditor(7,604-19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,76 +84,68 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.41f1 (46e447368a18)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/watar/Desktop/SpaceShoot/SpaceShooting/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ktc/Desktop/新しいフォルダー/SpaceShooting/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
-    Vendor:   Intel
-    VRAM:     8077 MB
-    Driver:   31.0.101.5333
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
-Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/VR/SpatialMapping/Occlusion': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/VR/SpatialMapping/Wireframe': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/Simple Lit' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6624
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004715 seconds.
-- Loaded All Assemblies, in  0.468 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005528 seconds.
+- Loaded All Assemblies, in  0.602 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 268 ms
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.417 seconds
-Domain Reload Profiling: 883ms
-	BeginReloadAssembly (191ms)
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (187ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (223ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (417ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (722ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (370ms)
+		SetupLoadedEditorAssemblies (654ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			InitializePlatformSupportModulesInManaged (378ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,207 +154,478 @@ Domain Reload Profiling: 883ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.667 seconds
-Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.230 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree8_PBRLit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree9_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.926 seconds
-Domain Reload Profiling: 2585ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 2186ms
+	BeginReloadAssembly (198ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (1403ms)
-		LoadAssemblies (1195ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (937ms)
+		LoadAssemblies (548ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (215ms)
-			BuildScriptInfoCaches (64ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (926ms)
+		AnalyzeDomain (499ms)
+			TypeCache.Refresh (388ms)
+				TypeCache.ScanAssembly (353ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (961ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (776ms)
+		SetupLoadedEditorAssemblies (761ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (157ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7615 unused Assets / (4.3 MB). Loaded Objects now: 8330.
-Memory consumption went from 184.7 MB to 180.4 MB.
-Total: 9.641400 ms (FindLiveObjects: 0.790200 ms CreateObjectMapping: 0.913000 ms MarkObjects: 5.366000 ms  DeleteObjects: 2.570300 ms)
+Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7620 unused Assets / (4.7 MB). Loaded Objects now: 8339.
+Memory consumption went from 186.9 MB to 182.2 MB.
+Total: 12.300200 ms (FindLiveObjects: 0.886000 ms CreateObjectMapping: 0.998600 ms MarkObjects: 7.241500 ms  DeleteObjects: 3.172500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1338.856080 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f1da893d0818a54cb6ca83459066cf6') in 0.0062415 seconds
+  Time since last request: 545.837124 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980c9fb80c82845b153ecd392cc4695d') in 0.0244194 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1561ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7603 unused Assets / (4.0 MB). Loaded Objects now: 8333.
-Memory consumption went from 150.4 MB to 146.5 MB.
-Total: 8.493200 ms (FindLiveObjects: 0.623500 ms CreateObjectMapping: 0.639600 ms MarkObjects: 5.289000 ms  DeleteObjects: 1.939700 ms)
+Unloading 7618 unused Assets / (5.5 MB). Loaded Objects now: 8348.
+Memory consumption went from 156.3 MB to 150.7 MB.
+Total: 11.260200 ms (FindLiveObjects: 0.865700 ms CreateObjectMapping: 0.883700 ms MarkObjects: 5.039900 ms  DeleteObjects: 4.469800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7602 unused Assets / (4.4 MB). Loaded Objects now: 8332.
-Memory consumption went from 150.4 MB to 146.1 MB.
-Total: 8.100100 ms (FindLiveObjects: 0.676900 ms CreateObjectMapping: 0.498200 ms MarkObjects: 4.219200 ms  DeleteObjects: 2.704200 ms)
+Unloading 7607 unused Assets / (4.2 MB). Loaded Objects now: 8348.
+Memory consumption went from 156.4 MB to 152.2 MB.
+Total: 15.050000 ms (FindLiveObjects: 1.104800 ms CreateObjectMapping: 1.171800 ms MarkObjects: 8.844400 ms  DeleteObjects: 3.927200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 275.646271 seconds.
+  path: Assets/Scripts/Fighter/FighterStatus.cs
+  artifactKey: Guid(6c5cf0f4b063de045b28e3fd4fcc7bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Fighter/FighterStatus.cs using Guid(6c5cf0f4b063de045b28e3fd4fcc7bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097871a226bf1f80a2c2c21a3788dcee') in 0.0175256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1566ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (220ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7618 unused Assets / (4.2 MB). Loaded Objects now: 8353.
+Memory consumption went from 156.3 MB to 152.1 MB.
+Total: 8.169600 ms (FindLiveObjects: 0.856500 ms CreateObjectMapping: 0.718200 ms MarkObjects: 4.290400 ms  DeleteObjects: 2.303600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.005 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.699 seconds
-Domain Reload Profiling: 1698ms
-	BeginReloadAssembly (262ms)
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1728ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (633ms)
-		LoadAssemblies (481ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (365ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (265ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (236ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (699ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (970ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (505ms)
+		SetupLoadedEditorAssemblies (699ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (317ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7618 unused Assets / (5.2 MB). Loaded Objects now: 8358.
+Memory consumption went from 156.3 MB to 151.0 MB.
+Total: 17.533100 ms (FindLiveObjects: 0.988500 ms CreateObjectMapping: 1.260600 ms MarkObjects: 8.656700 ms  DeleteObjects: 6.625500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7607 unused Assets / (4.6 MB). Loaded Objects now: 8358.
+Memory consumption went from 156.4 MB to 151.8 MB.
+Total: 9.156800 ms (FindLiveObjects: 0.804100 ms CreateObjectMapping: 0.821900 ms MarkObjects: 4.806200 ms  DeleteObjects: 2.723300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.801 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1635ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (197ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (835ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7618 unused Assets / (4.3 MB). Loaded Objects now: 8363.
+Memory consumption went from 156.3 MB to 152.0 MB.
+Total: 8.271500 ms (FindLiveObjects: 0.769300 ms CreateObjectMapping: 0.803200 ms MarkObjects: 4.349700 ms  DeleteObjects: 2.348400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1649ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (880ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7613 unused Assets / (3.7 MB). Loaded Objects now: 8338.
-Memory consumption went from 154.1 MB to 150.3 MB.
-Total: 7.487400 ms (FindLiveObjects: 0.823800 ms CreateObjectMapping: 0.529700 ms MarkObjects: 4.173700 ms  DeleteObjects: 1.958800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.53 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7602 unused Assets / (4.8 MB). Loaded Objects now: 8338.
-Memory consumption went from 154.2 MB to 149.4 MB.
-Total: 12.886700 ms (FindLiveObjects: 1.100100 ms CreateObjectMapping: 1.208600 ms MarkObjects: 6.919800 ms  DeleteObjects: 3.656800 ms)
+Unloading 7618 unused Assets / (4.6 MB). Loaded Objects now: 8368.
+Memory consumption went from 156.3 MB to 151.7 MB.
+Total: 9.275600 ms (FindLiveObjects: 0.806700 ms CreateObjectMapping: 0.901000 ms MarkObjects: 4.739800 ms  DeleteObjects: 2.826500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 322.032327 seconds.
-  path: Assets/Scripts/Fighter/FighterAttack.cs
-  artifactKey: Guid(28c65d159a491994cb540522527f8469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fighter/FighterAttack.cs using Guid(28c65d159a491994cb540522527f8469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b59971753caba5f27f9fcb8f8d2fad1') in 0.006605 seconds
+  Time since last request: 282.976714 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMinigun.prefab
+  artifactKey: Guid(82d887c3b90616348b27fdfbb59794b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMinigun.prefab using Guid(82d887c3b90616348b27fdfbb59794b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eff846be2dfccf29086f0ab74d38a42') in 0.6262963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewRed2.png
+  artifactKey: Guid(b3f1aef19743f8445aa4f664e87ad84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewRed2.png using Guid(b3f1aef19743f8445aa4f664e87ad84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd7f1c6392b2f7f045f79389c7b62227') in 0.0493706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideViewScaleInRelation/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab
+  artifactKey: Guid(fcde71776f863e54ab79dd59ea09fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideViewScaleInRelation/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab using Guid(fcde71776f863e54ab79dd59ea09fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3647e5e4bc9b05086903ceb370f0245') in 0.0717335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlue2.png
+  artifactKey: Guid(d0a34105e4889f749b0b25e03b9bca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlue2.png using Guid(d0a34105e4889f749b0b25e03b9bca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30d9841ac83268aa889717fb1b4e1fc7') in 0.0188437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopView/2DScifiFrigateCorsairTopViewMasterPrefab.prefab
+  artifactKey: Guid(fedd70b28e1d0bc44b3cb74a02d982d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopView/2DScifiFrigateCorsairTopViewMasterPrefab.prefab using Guid(fedd70b28e1d0bc44b3cb74a02d982d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be4a7a00b20e1f0d846a446b51673796') in 0.028049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissile.prefab
+  artifactKey: Guid(556f2eb4bc9000c42a11abc910131c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissile.prefab using Guid(556f2eb4bc9000c42a11abc910131c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd04a86426b7adc6724c551bdca1dbbf') in 0.008078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissileLaucher.prefab
+  artifactKey: Guid(d41e42d52e57ffd4f965fd8242f87472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissileLaucher.prefab using Guid(d41e42d52e57ffd4f965fd8242f87472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '154f432f9e4988eb4add13a7ec2b5d57') in 0.0095776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiFighterExcaliburTopViewMasterPrefab.prefab
+  artifactKey: Guid(cdf17be89501f4640a7bf79c310066b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiFighterExcaliburTopViewMasterPrefab.prefab using Guid(cdf17be89501f4640a7bf79c310066b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8bb0fece8f809ea0e4d6b168bb721c0') in 0.0280902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideViewScaleInRelation/2DScifiFrigateCorsairSideViewMasterPrefab.prefab
+  artifactKey: Guid(cef0bbfd6bd27c24e82799ae94b2a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideViewScaleInRelation/2DScifiFrigateCorsairSideViewMasterPrefab.prefab using Guid(cef0bbfd6bd27c24e82799ae94b2a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09237f219f4f671cc494602e98cd6287') in 0.0276947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsMediumTurretSideViewLeft.prefab
+  artifactKey: Guid(d94c5a29e77aa1f40b5dece118511281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsMediumTurretSideViewLeft.prefab using Guid(d94c5a29e77aa1f40b5dece118511281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b5484e2ecd6ee7842b4e5a6c90f1976') in 0.0078692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Fighter_BundledAssetGroupSchema.asset
+  artifactKey: Guid(758d8510bf0be2345a327947240ce454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Fighter_BundledAssetGroupSchema.asset using Guid(758d8510bf0be2345a327947240ce454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05f70562e6fc183c0da195de07cdba76') in 0.0014537 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.992 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.786 seconds
-Domain Reload Profiling: 1771ms
-	BeginReloadAssembly (280ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (613ms)
-		LoadAssemblies (486ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (229ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (787ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (580ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7613 unused Assets / (4.7 MB). Loaded Objects now: 8343.
-Memory consumption went from 154.1 MB to 149.4 MB.
-Total: 10.671600 ms (FindLiveObjects: 0.904900 ms CreateObjectMapping: 0.985700 ms MarkObjects: 5.899200 ms  DeleteObjects: 2.880300 ms)
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Fighter_ContentUpdateGroupSchema.asset
+  artifactKey: Guid(dc34b856d31e8ca418e584dfde63e4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Fighter_ContentUpdateGroupSchema.asset using Guid(dc34b856d31e8ca418e584dfde63e4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c76b2e03cb08c567839fe2511efaaf17') in 0.0010298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGreen2.png
+  artifactKey: Guid(95813e2465cb02448b2d72249b99452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGreen2.png using Guid(95813e2465cb02448b2d72249b99452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daa14ea13eb52996d4443c3d6abdbaf4') in 0.017892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGrey.png
+  artifactKey: Guid(0d8a1b8cd7445b445bff5a661529f046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGrey.png using Guid(0d8a1b8cd7445b445bff5a661529f046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efe0c797aa1d8ca3a63d4bd706aa29ee') in 0.0200523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab
+  artifactKey: Guid(b26aed0f04fef024aa2a3a3edb5429f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab using Guid(b26aed0f04fef024aa2a3a3edb5429f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd82583f5c5400aa7edbdde94731afab9') in 0.0345759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiFrigateCorsairTopViewMasterPrefab.prefab
+  artifactKey: Guid(084d57ee81b2b814e8ef4386663aa943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiFrigateCorsairTopViewMasterPrefab.prefab using Guid(084d57ee81b2b814e8ef4386663aa943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a1323b490cba53154ae0e134c654b5') in 0.0380552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopView/2DScifiDestroyerPhoenixTopViewMasterPrefab.prefab
+  artifactKey: Guid(6185077c5c222024e8cf1cc5d6ed9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopView/2DScifiDestroyerPhoenixTopViewMasterPrefab.prefab using Guid(6185077c5c222024e8cf1cc5d6ed9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34daaa92b1f17c9860f28f25dc23c7ec') in 0.035586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+

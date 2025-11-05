@@ -15,3 +15,25 @@ var bulletAttack = new BulletAttack(firePoints, bulletPrefab);
 4:生成したインスタンスを攻撃パターンとして登録
 （例：BulletAttackの場合）
 fighterAttack.Initialize(new List<I_FighterAttack> { bulletAttack });
+
+
+攻撃処理のフロー
+1:攻撃パターンの登録
+fighterAttack.AddAttackPattern(new BulletAttack(firePoint));
+
+2:(BulletAttack / BaseAttack)
+BaseAttack が攻撃処理の共通部分を担当、BulletAttack は Fire() で固有処理（弾の生成）を実装
+
+3:UniRxで監視
+Observable.EveryUpdate()
+    .Where(_ => isAttackPressed())          // 攻撃ボタンが押されている
+    .ThrottleFirst(TimeSpan.FromSeconds(interval)) // 連射制限
+    .Subscribe(_ => { onAttack?.Invoke(); }) // 実際に攻撃実行（FireBullet呼び出し）
+
+4:実際に弾を発射(Fire() (BulletAttack))
+private async UniTask FireBullet()
+{
+    if (firePoint == null || bullet == null) return;
+    Debug.Log("bullet fire!");
+    await UniTask.Yield();  // 非同期的に次のフレームまで待機
+}
